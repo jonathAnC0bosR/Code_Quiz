@@ -131,3 +131,7 @@ div.end-game {
 div.end-game h1 {
     font-size: 150%;
 }
+
+div.message {
+    font-size: 200%;
+}
