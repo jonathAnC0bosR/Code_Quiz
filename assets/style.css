@@ -1,0 +1,133 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FAF3DD;
+}
+
+div.starter-page {
+    position: absolute;
+    top: 25%;
+    left: 35%;
+}
+h1 {
+    font-size: 140%;
+}
+
+h1, h2 {
+    margin-bottom: 15px;
+    background-color: 
+}
+
+div.titles {
+    background-color: #A4B8C4;
+    padding-top: 5px;
+    color: white;
+}
+
+div.starter-page {
+    background-color: aliceblue;
+    padding: 30px;
+}
+
+div.starter-page h1, 
+div.starter-page h2 {
+    text-align: center;
+}
+
+div.starter-page h2 {
+    border-bottom: black solid 2px;
+    padding-bottom: 10px;
+}
+
+div ul li {
+    margin: 15px;;
+}
+
+div.start-button {
+    display: flex;
+    justify-content: center;
+    height: 40px;
+}
+
+div.start-button button, 
+div.play-again button {
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #A4B8C4;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    border-style: none;
+    cursor: pointer;
+    transition: all .15s;
+    font-weight: 300;
+}
+
+div.start-button button:hover, 
+div.play-again button:hover {
+    background-color: #4ea3d8;
+    font-weight: 500;
+    transform: scale(1.125);
+}
+
+div.questions {
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    background-color: #8B80F9;
+    padding: 20px
+
+}
+
+
+div.question-titles {
+    margin-left: 35px;
+    background-color: #101D42;
+    padding-top: 15px;
+    color: white;
+    padding-top:20px;
+}
+
+div.timer {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+
+div.seconds-left {
+    position: absolute;
+    top: 9%;
+    left: 83%;
+    background-color: white;
+    padding: 10px 15px 10px 15px;
+    color: black;
+    border-radius: 10px;
+}
+
+div.question-titles h2 {
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 2px solid yellow;
+}
+
+div.answers li {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+div.answers li:hover {
+    opacity: 0.7;
+    cursor: pointer;
+    border: #101D42 solid 2px;
+}
+
+div.end-game {
+    position: absolute;
+    top: 35%;
+    left: 45%;
+    text-align: center;
+}
+
+div.end-game h1 {
+    font-size: 150%;
+}
