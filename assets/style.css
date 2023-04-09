@@ -1,6 +1,6 @@
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: #FAF3DD;
+    background-color: white;
 }
 
 div.starter-page {
@@ -69,22 +69,26 @@ div.play-again button:hover {
     transform: scale(1.125);
 }
 
-div.questions {
+div.first-question, 
+div.second-question, 
+div.third-question {
+    display: flex;
     position: absolute;
-    top: 25%;
-    left: 30%;
-    background-color: #8B80F9;
-    padding: 20px
-
+    top: 20%;
+    left: 25%;
+    background-color:lightgray;
+    padding: 50px;
+    width: 500px
 }
 
 
 div.question-titles {
-    margin-left: 35px;
-    background-color: #101D42;
+    margin-left: 5px;
+    background-color: lightcoral;
     padding-top: 15px;
     color: white;
     padding-top:20px;
+    border-radius: 10px;
 }
 
 div.timer {
@@ -95,8 +99,8 @@ div.timer {
 
 div.seconds-left {
     position: absolute;
-    top: 9%;
-    left: 83%;
+    top: 26%;
+    left: 71%;
     background-color: white;
     padding: 10px 15px 10px 15px;
     color: black;
@@ -110,7 +114,7 @@ div.question-titles h2 {
 }
 
 div.answers li {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     padding: 10px;
     border-radius: 10px;
 }
@@ -132,6 +136,7 @@ div.end-game h1 {
     font-size: 150%;
 }
 
-div.message {
-    font-size: 200%;
+.message {
+    font-size:300px;
+
 }

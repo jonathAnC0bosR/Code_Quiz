@@ -27,8 +27,10 @@
         </div>
         <div class="start-button"><button> Start game </button></div>
     </div>
-    <div class="questions" style="display: none;">
-        <div class="first-question" >
+
+
+    <div class="questions">
+        <div class="first-question" style="display: none;">
             <div class="question-titles">
                 <div class="timer">
                     <p>Question 1</p>
@@ -36,45 +38,88 @@
                         <span>Time left:</span> 
                     </div>
                 </div>
-                <div class="seconds-left">
-                    <span>60</span>
-                </div>
+             
                 
                 <h2>What is a CSS selector?</h2>
             </div>
             <div class="answers">
                 <ul id = "f-question">
-                    <li data-corret = "false">a)  A CSS selector is a type of coffee drink.</li>
-                    <li data-corret = "false">b)  A CSS selector is a programming language.</li>
-                    <li data-corret = "false">c)  A CSS selector is a data type used in JavaScript. </li>
-                    <li data-corret = "true">d) A CSS selector is a pattern that is used to select HTML elements.</li>
+                    <li data-correct = "false">a)  A CSS selector is a type of coffee drink.</li>
+                    <li data-correct = "false">b)  A CSS selector is a programming language.</li>
+                    <li data-correct = "false">c)  A CSS selector is a data type used in JavaScript. </li>
+                    <li data-correct = "true">d) A CSS selector is a pattern that is used to select HTML elements.</li>
                 </ul>
             </div>
         </div>
-        <div class="second-question">
 
-        </div>
-        <div class="third-question">
 
+        <div class="second-question" style="display: none;">
+            <div class="question-titles">
+                <div class="timer">
+                    <p>Question 2</p>
+                    <div class="time-left">
+                        <span>Time left:</span> 
+                    </div>
+                </div>
+                <h2>What is jQuery?</h2>
+            </div>
+            <div class="answers">
+                <ul id = "s-question">
+                    <li data-correct = "false">a)  A HTML element.</li>
+                    <li data-correct = "true">b)  A Javascript library.</li>
+                    <li data-correct = "false">c)  A CSS pseudo selector. </li>
+                    <li data-correct = "false">d) A Javascript array method.</li>
+                </ul>
         </div>
+
+
+        <div class="third-question" style ="display: none;">
+            <div class="question-titles">
+                <div class="timer">
+                    <p>Question 3</p>
+                    <div class="time-left">
+                        <span>Time left:</span> 
+                    </div>
+                </div>
+                <h2>What is Bootstrap?</h2>
+            </div>
+            <div class="answers">
+                <ul id = "t-question">
+                    <li data-correct = "true">a)  A CSS library.</li>
+                    <li data-correct = "false">b)  A HTML link method.</li>
+                    <li data-correct = "false">c)  A  Phyton function.  </li>
+                    <li data-correct = "false">d) A Javascript API. </li>
+                </ul>
+            </div>
+        </div>
+
+
         <div class="fourth-question">
-
         </div>
-        <div></div>
     </div>
+
     <div class="end-game" style="display: none;">  
         <h1>Time's up!</h1>
         <div class="play-again">
             <button class="pg-button"> Play again</button>
         </div> 
     </div>
-    <div class="message" style="display: none;">
-        <p class="correct">
-            Correct!
-        </p>
-        <p class="wrong">
-            Wrong!
-        </p>
+    <div class="message">
+        <div class="correct" style ="display: none;" >
+            <p>
+             Correct!
+            </p>
+        </div>
+        <div class="wrong" style="display: none;">
+            <p>
+                Wrong!
+            </p>
+        </div>
+    </div>
+    <div class="card-timer" style="display: none;">
+         <div class="seconds-left">
+             <span>60</span>
+         </div>
     </div>
     <script src="./assets/script.js"></script>
 </body>
