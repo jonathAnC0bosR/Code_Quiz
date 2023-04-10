@@ -12,7 +12,9 @@
     <title>Code Quiz</title>
 </head>
 <body>
-    <div class="starter-page" >
+    
+    
+    <div class="starter-page">
         <div class="titles">
             <h1>Coding Quiz</h1>
             <h2>Rules of the Quiz</h2>
@@ -30,6 +32,7 @@
 
 
     <div class="questions">
+
         <div class="first-question" style="display: none;">
             <div class="question-titles">
                 <div class="timer">
@@ -70,42 +73,53 @@
                     <li data-correct = "false">c)  A CSS pseudo selector. </li>
                     <li data-correct = "false">d) A Javascript array method.</li>
                 </ul>
+            </div> 
         </div>
-
-
-        <div class="third-question" style ="display: none;">
+        
+        <div class="third-question" style="display:none;">
             <div class="question-titles">
                 <div class="timer">
                     <p>Question 3</p>
                     <div class="time-left">
-                        <span>Time left:</span> 
+                        <span>Time left:</span>
                     </div>
                 </div>
                 <h2>What is Bootstrap?</h2>
             </div>
             <div class="answers">
-                <ul id = "t-question">
-                    <li data-correct = "true">a)  A CSS library.</li>
-                    <li data-correct = "false">b)  A HTML link method.</li>
-                    <li data-correct = "false">c)  A  Phyton function.  </li>
-                    <li data-correct = "false">d) A Javascript API. </li>
+                <ul id="t-question">
+                    <li data-correct="false">a) A javascript web API.</li>
+                    <li data-correct="false">b) A HTML link method.</li>
+                    <li data-correct="true">c) A CSS library.</li>
+                    <li data-correct="false">d) A Slack channel.</li>
                 </ul>
             </div>
         </div>
 
-
-        <div class="fourth-question">
+        <div class="fourth-question" style="display:none;">
+            <div class="question-titles">
+                <div class="timer">
+                    <p>Question 4</p>
+                    <div class="time-left">
+                        <span>Time left:</span>
+                    </div>
+                </div>
+                <h2>What does Web API stands for?</h2>
+            </div>
+            <div class="answers">
+                <ul id="c-question">
+                    <li data-correct="true">a) Application Programming Interface.  </li>
+                    <li data-correct="false">b) Armistic Application Instalation. </li>
+                    <li data-correct="false">c) Arithmetich Program Interface.</li>
+                    <li data-correct="false">d) Area Per Inch. </li>
+                </ul>
+            </div>
         </div>
     </div>
-
-    <div class="end-game" style="display: none;">  
-        <h1>Time's up!</h1>
-        <div class="play-again">
-            <button class="pg-button"> Play again</button>
-        </div> 
-    </div>
+    
+    
     <div class="message">
-        <div class="correct" style ="display: none;" >
+        <div class="correct" style="display: none;" >
             <p>
              Correct!
             </p>
@@ -120,6 +134,19 @@
          <div class="seconds-left">
              <span>60</span>
          </div>
+    </div>
+
+    <div class="end-page" style="display:none;">
+        <hi>
+            All done!
+        </hi>
+        <div class="score">
+            <p>Your total score is: <span class="total-score"></span></p>
+        </div>
+        <div class="play-again">
+            <button class="pg-button"> Play again</button>
+        </div>
+        
     </div>
     <script src="./assets/script.js"></script>
 </body>

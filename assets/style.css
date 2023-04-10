@@ -69,16 +69,17 @@ div.play-again button:hover {
     transform: scale(1.125);
 }
 
+
 div.first-question, 
 div.second-question, 
-div.third-question {
-    display: flex;
+div.third-question, 
+div.fourth-question {
     position: absolute;
-    top: 20%;
-    left: 25%;
+    top: 15%;
+    left: 30%;
     background-color:lightgray;
     padding: 50px;
-    width: 500px
+    width: 500px;
 }
 
 
@@ -99,8 +100,8 @@ div.timer {
 
 div.seconds-left {
     position: absolute;
-    top: 26%;
-    left: 71%;
+    top: 25%;
+    left: 65%;
     background-color: white;
     padding: 10px 15px 10px 15px;
     color: black;
@@ -137,6 +138,24 @@ div.end-game h1 {
 }
 
 .message {
-    font-size:300px;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    margin-top: 500px;
+    font-style: italic;
+}
 
+div.end-page {
+    position: absolute;
+    top: 25%;
+    left: 43%;
+    text-align: center;
+}
+
+div.end-page button {
+    margin: 15px;
+}
+
+div.score p{
+    margin: 20px;
 }
