@@ -82,7 +82,7 @@ firstAnswer.forEach(answer => {
         } else {
             wrongAnswer.style.display = 'block';
             correctAnswer.style.display = 'none';
-            secondsLeft -= 10;
+            secondsLeft -= 20;
             secondQuestion.style.display = 'block';
         }
     })
@@ -98,7 +98,7 @@ secondAnswer.forEach(answer => {
         } else {
             wrongAnswer.style.display = 'block';
             correctAnswer.style.display = 'none';
-            secondsLeft -= 10;
+            secondsLeft -= 20;
             thirdQuestion.style.display = 'block';
         }
     })
@@ -114,7 +114,7 @@ thirdAnswer.forEach(answer => {
         } else {
             wrongAnswer.style.display = 'block';
             correctAnswer.style.display = 'none';
-            secondsLeft -= 10;
+            secondsLeft -= 20;
             fourthQuestion.style.display = 'block';
         }
     })
@@ -130,7 +130,7 @@ fourthAnswer.forEach(answer => {
         } else {
             wrongAnswer.style.display = 'block';
             correctAnswer.style.display = 'none';
-            secondsLeft -= 10;
+            secondsLeft -= 20;
             endGame();
         }
     })
