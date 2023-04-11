@@ -23,6 +23,18 @@ div.titles {
     color: white;
 }
 
+div.highscores-page {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+div.highscores h1 {
+    font-size: 130%;
+    font-style: italic;
+}
+
 div.starter-page {
     background-color: aliceblue;
     padding: 30px;
@@ -49,7 +61,8 @@ div.start-button {
 }
 
 div.start-button button, 
-div.play-again button {
+div.play-again button, button.submit, 
+button.hg-button, button.go-back {
     border-radius: 8px;
     padding: 10px;
     background-color: #A4B8C4;
@@ -63,7 +76,10 @@ div.play-again button {
 }
 
 div.start-button button:hover, 
-div.play-again button:hover {
+div.play-again button:hover, 
+button.submit:hover, 
+button.hg-button:hover, 
+button.go-back:hover {
     background-color: #4ea3d8;
     font-weight: 500;
     transform: scale(1.125);
@@ -148,7 +164,7 @@ div.end-game h1 {
 div.end-page {
     position: absolute;
     top: 25%;
-    left: 43%;
+    left: 38%;
     text-align: center;
 }
 
@@ -159,3 +175,5 @@ div.end-page button {
 div.score p{
     margin: 20px;
 }
+
+

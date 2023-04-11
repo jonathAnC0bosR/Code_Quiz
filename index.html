@@ -12,7 +12,14 @@
     <title>Code Quiz</title>
 </head>
 <body>
-    
+    <div class="highscores-page" style="display: none;" >
+        <div class="list">
+            <div class="highscores">
+                <h1>Highscores</h1>
+                <button class="go-back">Go back</button>
+            </div>
+        </div>
+    </div>
     
     <div class="starter-page">
         <div class="titles">
@@ -143,11 +150,17 @@
         <div class="score">
             <p>Your total score is: <span class="total-score"></span></p>
         </div>
+        <div class="initials">
+            <span> Insert your initials: <input type="text" class="form_field"
+                placeholder="Initials"> </span> <button class="submit">Submit</button>
+        </div>
+        
         <div class="play-again">
             <button class="pg-button"> Play again</button>
         </div>
-        
     </div>
-    <script src="./assets/script.js"></script>
+    
 </body>
+    <script src="./assets/script.js"></script>
+    
 </html>
